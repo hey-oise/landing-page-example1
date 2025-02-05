@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(50, 50, 53);
+  background-color: #363442;
   font-family: Arial, sans-serif;
   color: rgba(255, 255, 255, 0.63);
   transition: 500ms;
@@ -32,7 +32,7 @@ nav {
 button {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: rgba(255, 255, 255, 0.459);
+  background-color: #e5d2cc;
   cursor: pointer;
   border-radius: 10px;
   margin-left: 1rem;
@@ -43,9 +43,9 @@ button:hover {
   text-decoration: underline;
 }
 .header {
-  color: rgb(50, 176, 235);
+  color: #f8fb86;
   height: 70vh;
-  background-image: url("imags/bg.jpg");
+  background-image: url("/imags/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ button:hover {
   border-radius: 100%;
 }
 .contact-us {
-  background-color: rgb(66, 69, 71);
+  background-color: #f8fb86;
   color: black;
   text-align: center;
   left: 0%;
@@ -105,7 +105,7 @@ button:hover {
   .title {
     font-size: 20px;
   }
-  nav{
+  nav {
     margin-left: 70%;
   }
   button {
@@ -114,14 +114,14 @@ button:hover {
     text-align: center;
     padding: 6px;
   }
- .header{
-  padding: 22px;
- }
- .product-container{
-  grid-template-columns: auto;
-  padding: auto;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
- }
+  .header {
+    padding: 22px;
+  }
+  .product-container {
+    grid-template-columns: auto;
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
