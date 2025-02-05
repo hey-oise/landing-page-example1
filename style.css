@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(175, 167, 167);
+  background-color: rgb(50, 50, 53);
   font-family: Arial, sans-serif;
   color: rgba(255, 255, 255, 0.63);
   transition: 500ms;
@@ -19,11 +19,11 @@ body {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 23;
   font-weight: bold;
 }
 h1 {
-  color: rgb(255, 255, 255);
+  font-size: 50;
 }
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav {
 button {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: rgb(188, 207, 192);
+  background-color: rgba(255, 255, 255, 0.459);
   cursor: pointer;
   border-radius: 10px;
   margin-left: 1rem;
@@ -43,9 +43,9 @@ button:hover {
   text-decoration: underline;
 }
 .header {
- color: rgb(255, 255, 255);
+  color: rgb(50, 176, 235);
   height: 70vh;
-  background-image: url("/bg.jpg");
+  background-image: url("imags/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,42 +61,67 @@ button:hover {
   z-index: -1;
 }
 .products {
-    text-align: center;
-    height: fit-content;    
-    margin-top: 80vh;
+  text-align: center;
+  height: fit-content;
+  margin-top: 80vh;
 }
-.our-products-{
-
+.our-products- {
 }
 .product-container {
-    max-width: 100%;    
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-auto-rows: minmax(200px, auto);
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(200px, auto);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
 }
 .product {
-
+  margin-bottom: 50px;
 }
 .product-img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 100%;
-
 }
-.contact-us{
-  background-color: white;
+.contact-us {
+  background-color: rgb(66, 69, 71);
   color: black;
   text-align: center;
   left: 0%;
   right: 0%;
   position: absolute;
-  padding: 10px;
+  padding: 30px;
 }
-.link{
+.link {
   margin: 8px;
   color: black;
+}
+@media (max-width: 780px) {
+  .top-bar {
+    width: 100;
+  }
+  .title {
+    font-size: 20px;
+  }
+  nav{
+    margin-left: 70%;
+  }
+  button {
+    height: 30px;
+    font-size: smaller;
+    text-align: center;
+    padding: 6px;
+  }
+ .header{
+  padding: 22px;
+ }
+ .product-container{
+  grid-template-columns: auto;
+  padding: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+ }
 }
