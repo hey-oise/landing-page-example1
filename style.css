@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #363442;
   font-family: Arial, sans-serif;
@@ -86,17 +89,30 @@ button:hover {
   border-radius: 100%;
 }
 .contact-us {
-  background-color: #f8fb86;
+  background-color: #e5d2cc6c;
   color: black;
   text-align: center;
   left: 0%;
   right: 0%;
-  position: absolute;
   padding: 30px;
 }
 .link {
   margin: 8px;
   color: black;
+}
+.testimonies {
+  background-color: #f7fb86a9;
+  color: black;
+  text-align: center;
+  left: 0%;
+  right: 0%;
+  padding: 30px;
+}
+.test-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 2px;
 }
 @media (max-width: 780px) {
   .top-bar {
