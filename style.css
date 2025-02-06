@@ -6,6 +6,7 @@ body {
   font-family: Arial, sans-serif;
   color: rgba(255, 255, 255, 0.63);
   transition: 500ms;
+  margin: 0;
 }
 .top-bar {
   display: flex;
