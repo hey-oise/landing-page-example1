@@ -100,7 +100,7 @@ button:hover {
 }
 @media (max-width: 780px) {
   .top-bar {
-    width: 90;
+    width: 75;
   }
   .title {
     font-size: 20px;
