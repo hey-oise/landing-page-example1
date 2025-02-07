@@ -115,6 +115,20 @@ button:hover {
   font-style: italic;
   font-weight: 2px;
 }
+.footer {
+  background-color: #363442;
+  color: #000000;
+  text-align: center;
+  left: 0%;
+  right: 0%;
+  padding: 30px;
+  bottom: 0%;
+}
+a {
+  text-decoration: underline;
+  color: #000000;  
+  font-weight: bolder;
+}
 @media (max-width: 780px) {
   .top-bar {
     width: 75;
